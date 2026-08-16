@@ -1,0 +1,28 @@
+CAR INDICATOR CONTROLLER SIMULATION
+
+No switch -> Left=OFF, Right=OFF
+Left switch -> Left=ON, Right=OFF
+Right switch -> Left=OFF, Right=ON
+Hazard switch -> Left=ON, Right=ON
+Left + Right -> Left=OFF, Right=OFF
+Left + Hazard -> Left=ON, Right=ON
+Right + Hazard -> Left=ON, Right=ON
+
+======================================
+CAR INDICATOR CONTROLLER TESTBENCH
+
+[PASS] No switch
+[PASS] Left indicator
+[PASS] Right indicator
+[PASS] Hazard indicator
+[PASS] Left + Right invalid input
+[PASS] Left + Hazard
+[PASS] Right + Hazard
+[PASS] Left + Right + Hazard
+
+======================================
+TEST SUMMARY
+
+Tests Passed : 8
+Tests Failed : 0
+RESULT : ALL TESTS PASSED
